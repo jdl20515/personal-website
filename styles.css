@@ -58,9 +58,12 @@ h1 {
 
 #project-button{
     background-color: #d9edff;
+    border: none;
     padding: 140px 200px;
     margin: 8px 8px;
     cursor: pointer;
+    
+    
 
 }
 
