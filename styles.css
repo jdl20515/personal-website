@@ -73,7 +73,8 @@ button, input[type="submit"] {
     margin: 8px 8px;
     cursor: pointer;
     display: flex;
-    margin: auto;
+    justify-content: center;
+
     
 }
 
