@@ -9,8 +9,9 @@ body {
 }
 
 .container {
-    height: 60%;
+    height: 90%;
     width: 90%;
+    padding-top: 20px;
 }
 
 .jumbotron {
