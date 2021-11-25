@@ -69,9 +69,11 @@ button, input[type="submit"] {
 
 #project-button{
     background-color: #d9edff;
-    padding: 150px 220px;
-    margin: 6px 6px;
+    padding: 140px 200px;
+    margin: 8px 8px;
     cursor: pointer;
+    display: flex;
+    margin: auto;
     
 }
 
