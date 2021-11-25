@@ -35,4 +35,16 @@ def index():
 def aboutme():
     return render_template("aboutme.html")
 
+@app.route("/projects")
+def projects():
+    return render_template("projects.html")
+
+@app.route("/supasole")
+def supasole():
+    return render_template("supasole.html")
+
+@app.route("/contact")
+def contact():
+    return render_template("contact.html")
+
 
