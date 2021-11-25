@@ -47,6 +47,11 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
+    
+}
+
+.left {
+    text-align:left;
 }
 
 button, input[type="submit"] {
