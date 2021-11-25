@@ -33,7 +33,7 @@ body {
 
 
 #close-CSS {
-    background-image: url('light.png');
+    background-image: src="styles.css";
     height: 50px;  
     width: 50px;
 }
