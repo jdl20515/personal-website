@@ -62,8 +62,10 @@ h1 {
     padding: 100px 180px;
     margin: 8px 8px;
     cursor: pointer;
-    width: 150px;
+    width: 250px;
+    height: 100px;
     display: inline-block;
+    text-align: center;
     
     
 
