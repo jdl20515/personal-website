@@ -9,6 +9,14 @@ body {
     font-family: 'Playfair Display', serif;
 }
 
+.grid {
+    display: grid;
+    gap: var(--gap, 1rem)
+}
+
+.feature-grid {
+    grid-template-columns: 1fr 1fr;
+}
 
 .container {
     height: 90%;
