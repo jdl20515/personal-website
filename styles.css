@@ -61,7 +61,10 @@ h1 {
 }
 
 
-
+form {
+    display: inline-block;
+    width: 50%;
+}
 
 
 .button {
