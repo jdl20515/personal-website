@@ -60,6 +60,12 @@ h1 {
     text-align:left;
 }
 
+about {
+    display: inline-block;
+    width: calc(50%-60px);
+    margin-left: 50px;
+    vertical-align: top;
+}
 
 form {
     display: inline-block;
