@@ -50,6 +50,10 @@ body {
     transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
 }
 
+center{
+    align-content: "center";
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
