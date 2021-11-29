@@ -79,6 +79,8 @@ def contact():
         server.sendmail(FROM, TO, message)
         server.quit()
 
+        return render_template("index.html")
+
     else:
         return render_template("contact.html")
 
