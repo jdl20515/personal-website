@@ -51,34 +51,7 @@ def contact():
         email = request.form.get("email")
         subject = request.form.get("subject")
         message = request.form.get("message")
-
-        #SERVER = "localhost"
-
-        FROM = email
-
-        TO = ["jdavidlomelin@gmail.com"] # must be a list
-
-        SUBJECT = subject
-
-        TEXT = message
-
-
-        # Prepare actual message
-
-        message = """\
-        From: %s
-        To: %s
-        Subject: %s
-
-        %s
-        """ % (FROM, ", ".join(TO), SUBJECT, TEXT)
-
-        # Send the mail
-
-        server = smtplib.SMTP('myserver')
-        server.sendmail(FROM, TO, message)
-        server.quit()
-
+        
         return render_template("index.html")
 
     else:
