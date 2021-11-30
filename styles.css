@@ -50,7 +50,7 @@ body {
     transition: color 2s ease-in-out, background-color 0.15s ease-in-out;
 }
 
-center{
+.center{
     align-content: "center";
 }
 
@@ -91,7 +91,9 @@ form {
     width:250px;
   }
 
-
+a, u {
+    text-decoration: none;
+}
 
 input[type="text"], input[type="number"] {
     line-height: 1.8;
