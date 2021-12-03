@@ -54,6 +54,10 @@ body {
     align-content: "center";
 }
 
+img {
+    mix-blend-mode: multiply;
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 48px;
