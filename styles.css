@@ -54,6 +54,12 @@ body {
     align-content: "center";
 }
 
+.center2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;    
+}
 img {
     mix-blend-mode: multiply;
 }
