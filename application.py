@@ -46,15 +46,9 @@ def supasole():
 
 @app.route("/contact", methods=["GET", "POST"])
 def contact():
-    if request.method == "POST":
-        name = request.form.get("name")
-        email = request.form.get("email")
-        subject = request.form.get("subject")
-        message = request.form.get("message")
-        
-        return render_template("index.html")
+    return render_template("index.html")
 
-    else:
-        return render_template("contact.html")
+   
+        
 
 
